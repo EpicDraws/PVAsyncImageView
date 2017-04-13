@@ -36,6 +36,8 @@
     self.didFailLoadingImage = NO;
     self.userDidCancel = NO;
     
+    self.lastUrl = url;
+    
     self.image = img;
     errorImage = errorImg;
     imageDownloadData = [NSMutableData data];

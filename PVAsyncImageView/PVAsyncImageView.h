@@ -23,6 +23,8 @@
 @property (readonly) BOOL userDidCancel;
 @property (readonly) BOOL didFailLoadingImage;
 
+@property (readwrite, retain) NSString* lastUrl;
+
 @property (readwrite, retain) NSString *toolTipWhileLoading;
 @property (readwrite, retain) NSString *toolTipWhenFinished;
 @property (readwrite, retain) NSString *toolTipWhenFinishedWithError;
